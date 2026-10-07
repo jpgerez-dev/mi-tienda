@@ -1,0 +1,61 @@
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-bottom: 2px solid #1d4ed8;
+  margin-bottom: 24px;
+}
+
+h1 {
+  color: #1d4ed8;
+}
+
+.carrito {
+  font-weight: bold;
+}
+
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 16px;
+}
+
+.tarjeta {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.tarjeta h2 {
+  font-size: 1.05rem;
+  margin: 0 0 8px;
+}
+
+button {
+  background: #1d4ed8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+footer {
+  margin-top: 32px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
