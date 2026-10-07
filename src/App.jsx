@@ -33,7 +33,7 @@ function App() {
         ))}
       </main>
 
-      <footer>Versión 1.0.0 – proyecto de práctica</footer>
+      <footer>Versión 1.0.1 – proyecto de práctica</footer>
     </div>
   )
 }
