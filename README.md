@@ -7,3 +7,4 @@ Proyecto de práctica (React + Vite) para aprender el flujo GitHub → Pull Requ
 - `npm install`: instala las dependencias
 - `npm run dev`: levanta la app en http://localhost:5173
 - `npm run build`: genera la carpeta `dist` para publicar
+prueba
